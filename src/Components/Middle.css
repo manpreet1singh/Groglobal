@@ -1,0 +1,14 @@
+.containernew{
+    background-color:#28282B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   overflow: auto;
+}
+.headers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,8 +1,51 @@
 import React from 'react'
-
+import  meet from "../Images/meet.jpg";
+import './Services.css';
+import Middle from './Middle';
 const Services = () => {
   return (
-    <div>Services we provide will be made today</div>
+    <div>
+    <div className="container">
+      <div className="upper">
+        <h1>Services</h1>
+        <span>Home{`>`} services </span>
+      </div>
+      <div className="lower">
+        <div className="lower-left">
+        <img src={meet} alt="meet" />
+        </div>
+        <div className="lower-right">
+          <div className="lower-right-upper">
+          <div className="blue-line"></div>
+          <div className="heading">
+           <h2>How do we solve your</h2>
+           <h2> problem</h2> 
+          </div>
+          </div>
+          <div className="lower-right-down">
+            <ul>
+            <li className="list" >
+              <div className="check"></div>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laudantium.</span>
+              </li>
+            <li className="list"> <div className="check"></div><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nisi.</span></li>
+            <li className="list"> <div className="check"></div><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dicta?</span></li>
+            <li className="list"> <div className="check"></div><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum?</span></li>
+
+            </ul>
+          </div>
+         
+
+        </div>
+        
+
+      </div>
+    
+
+
+    </div>
+    <Middle/>
+    </div>
   )
 }
 
