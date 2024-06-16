@@ -1,5 +1,6 @@
 import React from 'react'
 import  meet from "../Images/meet.jpg";
+import  tick from "../Images/tick.png";
 import './Services.css';
 import Middle from './Middle';
 const Services = () => {
@@ -8,7 +9,7 @@ const Services = () => {
     <div className="container">
       <div className="upper">
         <h1>Services</h1>
-        <span>Home{`>`} services </span>
+        <span>Home{`>`} Services </span>
       </div>
       <div className="lower">
         <div className="lower-left">
@@ -25,12 +26,12 @@ const Services = () => {
           <div className="lower-right-down">
             <ul>
             <li className="list" >
-              <div className="check"></div>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laudantium.</span>
+              <img src={tick} className="check"></img>
+              <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, laudantium.</span>
               </li>
-            <li className="list"> <div className="check"></div><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nisi.</span></li>
-            <li className="list"> <div className="check"></div><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dicta?</span></li>
-            <li className="list"> <div className="check"></div><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum?</span></li>
+            <li className="list"> <img src={tick} className="check"></img><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nisi.</span></li>
+            <li className="list">  <img src={tick} className="check"></img><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dicta?</span></li>
+            <li className="list"> <img src={tick} className="check"></img><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum?</span></li>
 
             </ul>
           </div>

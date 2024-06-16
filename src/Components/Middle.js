@@ -8,6 +8,7 @@ const Middle = () => {
     <h1>The Top Digital Marketing Services We Provide</h1>
     </div>
     <Cards/>
+    <button  className="button">Book an appointment </button>
     </div>
   )
 }

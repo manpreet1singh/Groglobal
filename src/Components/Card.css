@@ -7,7 +7,7 @@
   }
   
   .card {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 250px;
@@ -35,21 +35,26 @@
 }
   
   .card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inknut Antiqua';
     margin-bottom: 10px;
-    color: #333;
+    color:#000000;
+
   }
   
   .card-description {
-    font-size: 1rem;
-    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    font-family: 'Inknut Antiqua';
     margin-bottom: 10px;
   }
   
   .card-button {
-    background-color: #007bff;
-    color: #fff;
+   
+    background-color: #ffffff;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -57,6 +62,3 @@
     transition: background-color 0.3s ease;
   }
   
-  .card-button:hover {
-    background-color: #0056b3;
-  }

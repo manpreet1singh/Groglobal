@@ -12,3 +12,19 @@
     flex-direction: column;
     align-items: center;
 }
+.button{
+    background-color:  #0081A1;
+    color: #ffffff;
+    height: 49px;
+    width: 289px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: color 0.3s ease;
+    margin-bottom: 50px;
+}
+.button:hover {
+
+ color:black
+}

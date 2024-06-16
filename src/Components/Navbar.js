@@ -14,7 +14,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <img src={logo} alt="Your Logo" />
-        <span className="logo-text">Gro Globally</span>
+        <span className="logo-text">Gro </span>
+        
       </div>
       <ul className="nav-links">
         <li className={currentPage === 'home' ? 'active' : ''}>
