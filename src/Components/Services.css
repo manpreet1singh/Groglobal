@@ -27,6 +27,14 @@ line-height: 56px;
     font-size: 16px;
 }
 
+.upper span a{
+    color: #808080;
+   text-decoration: none;
+}
+.upper span a:hover {
+    color: #ffffff;
+  }
+
 .lower{
     display: flex;
     margin-top: 300px;
@@ -86,3 +94,4 @@ h2{
     border-left: 6px solid rgb(37, 141, 193);
     height: 80px;
   }
+  

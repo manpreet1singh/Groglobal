@@ -1,0 +1,40 @@
+.story{
+    background-color: #000000;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+.story-right{
+    position: absolute;
+    left: 753px;
+    top: 250px;
+    font-family: Inknut Antiqua;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+
+    color: #ffffff;
+}
+.story-right p{
+    font-family: Inknut Antiqua;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+text-align: left;
+color:  #808080;
+
+}
+.storyblue-line {
+    height: 5px;
+    width: 154px;
+    position: absolute;
+    left: 00px;
+    top: -20px;
+    background-color: #55B7CE;
+  }
+  

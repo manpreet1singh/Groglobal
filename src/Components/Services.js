@@ -4,13 +4,16 @@ import  tick from "../Images/tick.png";
 import './Services.css';
 import Middle from './Middle';
 import Bottom from './Bottom';
+import { Link } from 'react-router-dom';
 const Services = () => {
   return (
     <div>
     <div className="container">
       <div className="upper">
         <h1>Services</h1>
-        <span>Home{`>`} Services </span>
+        <span>
+            <Link to="/">Home</Link> {'>'} Services
+          </span>
       </div>
       <div className="lower">
         <div className="lower-left">

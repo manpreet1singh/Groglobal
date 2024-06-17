@@ -28,6 +28,13 @@ text-align: left;
     text-align: left;
     color: #808080;    
 }
+.aboutupper span a{
+    color: #808080;
+    text-decoration: none;
+}
+.aboutupper span a:hover {
+    color: #ffffff;
+  }
 
 .aboutlower{
     display: flex;

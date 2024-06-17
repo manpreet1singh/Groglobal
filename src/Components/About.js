@@ -2,13 +2,17 @@ import React from 'react'
 import './About.css'
 import about from '../Images/about.png';
 import Team from './Team';
+import Story from './Story';
+import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div>
     <div className="aboutcontainer">
       <div className="aboutupper">
         <h1>About Us</h1>
-        <span>Home{`>`} Services </span>
+        <span>
+            <Link to="/">Home</Link> {'>'} About Us
+          </span>
       </div>
       <div className="aboutlower">
         <div className="aboutlower-left">
@@ -39,7 +43,7 @@ const About = () => {
     </div>
   
     <Team/>
-    
+    <Story/>
     </div>
   )
 }
