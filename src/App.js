@@ -5,10 +5,14 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
+import ScrollToTop from './Components/ScrollToTop';
+
+
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -17,6 +21,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
+
   );
 }
 
