@@ -1,0 +1,41 @@
+.containerbottom{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 700px;
+    position: relative;
+}
+.blueline{
+    width: 199px;
+    height: 5px;
+    background-color: #55B7CE;
+    position: absolute;
+    left: 173px;
+    top: 200px;
+}
+.head{
+    position: absolute;
+    font-family: Inknut Antiqua;
+    color: #ffffff;
+    left: 173px;
+    top: 210px;
+font-size: 64px;
+font-weight: 500;
+line-height: 72px;
+text-align: left;
+
+}
+
+.list ul{
+list-style: none;
+color: #ffffff;
+position: absolute;
+left: 853px;
+top: 210px;
+font-family: Inknut Antiqua;
+font-size: 32px;
+font-weight: 500;
+line-height: 72px;
+text-align: left;
+}

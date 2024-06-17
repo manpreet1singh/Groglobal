@@ -1,0 +1,107 @@
+.aboutcontainer{
+    background-color: black;
+    color: white;
+    height: 850px;
+    overflow: hidden;
+}
+.aboutupper{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.aboutupper h1{
+ color: #ffffff;
+ font-family: Inknut Antiqua;
+font-size: 64px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+
+}
+
+.aboutupper span{
+    font-family: Inknut Antiqua;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #808080;    
+}
+
+.aboutlower{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    position: relative;
+}
+.aboutlower-left{
+ position: absolute;
+left: 174px;
+top: 200px;
+
+}
+.aboutlower-left img{
+   height: 399px;
+   width: 399px;
+}
+.aboutlower-right{
+    position: absolute;
+ width: 480px;
+ left: 700px;
+ top: 250px;
+}
+.aboutlower-right-upper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.aboutblue-line {
+  height: 5px;
+  width: 154px;
+  position: absolute;
+  left: 00px;
+  top: -20px;
+  background-color: #55B7CE;
+}
+
+.aboutheading{
+    font-family: Inknut Antiqua;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: left;
+    
+    
+}
+
+.aboutlower-right-down{
+    font-family: Inknut Antiqua;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #808080;    
+}
+
+.aboutbutton{
+    background-color:  #0081A1;
+    color: #ffffff;
+    height: 49px;
+    width: 179px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: color 0.3s ease;
+    margin-bottom: 50px;
+}
+.aboutbutton:hover {
+
+    color:black
+   }
+   
+
+

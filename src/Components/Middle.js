@@ -5,7 +5,7 @@ const Middle = () => {
   return (
     <div className="containernew" >
     <div className="headers"><h3>Our Creative Services</h3>
-    <h1>The Top Digital Marketing Services We Provide</h1>
+    <h1 style={{ color: '#ffffff' }} >The Top Digital Marketing Services We Provide</h1>
     </div>
     <Cards/>
     <button  className="button">Book an appointment </button>

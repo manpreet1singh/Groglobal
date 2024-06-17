@@ -3,6 +3,7 @@ import  meet from "../Images/meet.jpg";
 import  tick from "../Images/tick.png";
 import './Services.css';
 import Middle from './Middle';
+import Bottom from './Bottom';
 const Services = () => {
   return (
     <div>
@@ -46,6 +47,7 @@ const Services = () => {
 
     </div>
     <Middle/>
+    <Bottom/>
     </div>
   )
 }

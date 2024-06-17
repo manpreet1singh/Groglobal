@@ -1,0 +1,89 @@
+.ourteam{
+    color: #ffffff;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inknut Antiqua;
+font-size: 36px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+padding-top: 10px;
+}
+.profile-card-container {
+    display: flex;
+    flex-wrap:wrap;
+   
+    justify-content:center;
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-details h1 {
+    font-size: 24px;
+    margin: 0;
+    font-family: Inknut Antiqua;
+font-size: 32px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+  }
+  
+  .profile-details h2 {
+    font-size: 16px;
+    margin: 0;
+    font-family: Inknut Antiqua;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+    color: #808080
+  }
+  
+  .profile-details p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
