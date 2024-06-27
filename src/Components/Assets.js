@@ -135,6 +135,54 @@ export const cards = [
           "icon": twitter
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "role": "Web Developer",
+      "description": "Lorem ipsum dolor sit amet consectetur. Non aliquet nulla scelerisque mollis. Adipiscing sit sagittis scelerisque blandit.",
+      "image": teamember,
+      "socials": [
+        {
+          "platform": "Instagram",
+          "url": "https://instagram.com",
+          "icon": insta
+        },
+        {
+          "platform": "Facebook",
+          "url": "https://facebook.com",
+          "icon": facebook
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com",
+          "icon": twitter
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "role": "Web Developer",
+      "description": "Lorem ipsum dolor sit amet consectetur. Non aliquet nulla scelerisque mollis. Adipiscing sit sagittis scelerisque blandit.",
+      "image": teamember,
+      "socials": [
+        {
+          "platform": "Instagram",
+          "url": "https://instagram.com",
+          "icon": insta
+        },
+        {
+          "platform": "Facebook",
+          "url": "https://facebook.com",
+          "icon": facebook
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com",
+          "icon": twitter
+        }
+      ]
     }
   ];
   

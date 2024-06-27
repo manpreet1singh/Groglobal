@@ -1,4 +1,4 @@
-/* Navbar.css */
+/* 
 
 .navbar {
   background-color: #000;
@@ -72,4 +72,145 @@ color: #808080;
 .nav-links a:hover {
   color: #ffffff;
 }
+ */
+/* Navbar.css */
 
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #000;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 4.44rem;
+  height: 4.44rem;
+  margin-right: 0.625rem;
+}
+
+.logo-text {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.logo-text::after {
+  content: "Globally";
+  color: #55B7CE;
+  font-size: 1.25rem;
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3.125rem;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  transition: color 0.2s ease;
+  color: #808080;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    transform: translateY(-100%);
+    height: 0;
+    overflow: hidden;
+  }
+
+  .nav-links.open {
+    transform: translateY(0);
+    height: auto;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .logo-text, .logo-text::after {
+    font-size: 1.125rem;
+  }
+
+  .nav-links {
+    font-size: 1.125rem;
+  }
+}
