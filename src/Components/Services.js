@@ -7,7 +7,7 @@ import Bottom from './Bottom';
 import { Link } from 'react-router-dom';
 const Services = () => {
   return (
-    <div>
+    <div className='main'>
     <div className="container">
       <div className="upper">
         <h1>Services</h1>

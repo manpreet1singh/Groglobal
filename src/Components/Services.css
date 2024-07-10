@@ -1,7 +1,10 @@
+.main{
+    height: 100vh;
+}
 .container{
     background-color: black;
     color: white;
-    height: 750px;
+    height: 100%;
     overflow: auto;
 }
 .upper{
