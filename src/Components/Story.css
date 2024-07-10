@@ -1,6 +1,6 @@
 .story{
     background-color: #000000;
-    height: 750px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,5 +36,54 @@ color:  #808080;
     left: 00px;
     top: -20px;
     background-color: #55B7CE;
+  }
+  @media (max-width: 768px) {
+    .story {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .story-right {
+      position: static;
+      text-align: center;
+      width: 100%;
+      max-width: none;
+      margin-top: 20px;
+    }
+  
+    .story-right h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .story-right p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .story {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .story-right {
+      position: static;
+      text-align: center;
+      width: 100%;
+      max-width: none;
+      margin-top: 10px;
+    }
+  
+    .story-right h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .story-right p {
+      font-size: 12px;
+      line-height: 18px;
+    }
   }
   

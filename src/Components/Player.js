@@ -7,8 +7,8 @@ const Player = () => {
     <ReactPlayer className="player"
       url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       controls={true}
-      width='517px'
-      height=' 328px'
+    //  width='100%'
+    //     height='100%'
     />
   </div>
   )

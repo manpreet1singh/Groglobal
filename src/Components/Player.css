@@ -1,13 +1,21 @@
 .player-wrapper {
-    position: relative;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
+.player {
+  position: relative;
+  top: -400px;
+  left: 100px;
 
-  }
-  
-  .player {
-    position: absolute;
-    top: 250px;
-    left: -550px;
+}
+@media(max-width:768px){
+  .player{
+    height: 100px;
+    width: 100px;
     
   }
+}

@@ -1,9 +1,16 @@
-.aboutcontainer{
+/* .aboutcontainer{
     background-color: black;
     color: white;
     height: 850px;
     overflow: hidden;
-}
+} */
+.aboutcontainer {
+    background-color: black;
+    color: white;
+    min-height: 100vh; /* Ensures full viewport height */
+    overflow: hidden;
+    padding: 2rem 1rem; /* Add padding for better spacing */
+  }
 .aboutupper{
 display: flex;
 justify-content: center;
@@ -109,6 +116,75 @@ top: 200px;
 
     color:black
    }
-   
+   @media (max-width: 768px) {
+    .aboutcontainer {
+      padding: 1rem; /* Adjusted padding */
+    }
+    .aboutupper h1 {
+        font-size: 3rem; /* Adjusted font size for smaller screens */
+        line-height: 1.2; /* Adjusted line height */
+        text-align: center; /* Center align text for better readability */
+      }
+      .aboutupper span {
+        font-family: 'Inknut Antiqua', serif;
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+        font-weight: 700;
+        line-height: 1.2; /* Adjusted line height */
+        text-align: center; /* Center align text for better readability */
+        color: #808080;
+      }
+      .aboutlower {
+        display: flex;
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Allow the height to adjust based on content */
+        padding: 1rem; /* Add padding for better spacing */
+        position: relative;
+      }  
+      .aboutlower-left {
+        position: relative; /* Change to relative positioning for smaller screens */
+        left: 0; /* Reset left position */
+        top: 0; /* Reset top position */
+        margin-bottom: 1.5rem; /* Add margin for spacing */
+      }  
+      .aboutlower-left img {
+        height: 250px; /* Adjusted height for smaller screens */
+        width: 250px; /* Adjusted width for smaller screens */
+      }  
+      .aboutlower-right {
+        position: relative; /* Change to relative positioning for smaller screens */
+        width: auto; /* Allow width to adjust based on content */
+        left: 0; /* Reset left position */
+        top: 0; /* Reset top position */
+        padding: 0 1rem; /* Add padding for better spacing */
+      }
+        .aboutlower-right-upper {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 1rem;
+  }
 
+  .aboutblue-line {
+    position: static;
+    margin-bottom: 1rem;
+  }
+  .aboutheading {
+    font-size: 32px; /* Adjust font size for smaller screens */
+    line-height: 40px; /* Adjust line height for smaller screens */
+    text-align: center; /* Center align text on smaller screens */
+  }
 
+  .aboutlower-right-down {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 18px; /* Adjust line height for smaller screens */
+    text-align: center; /* Center align text on smaller screens */
+  }
+
+  .aboutbutton {
+    width: 150px; /* Adjust button width for smaller screens */
+    margin-top: 30px; /* Adjust top margin for smaller screens */
+    margin-bottom: 30px; /* Adjust bottom margin for smaller screens */
+  }
+}
