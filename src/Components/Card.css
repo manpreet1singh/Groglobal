@@ -1,4 +1,4 @@
-.cards-container {
+/* .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,8 +24,8 @@
   }
   
   .card:hover {
-    /* transform: translateY(-10px); Moves the card up */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deepens the shadow */
+    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
 }
   .card-icon {
     font-size: 3rem;
@@ -63,4 +63,106 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+   */
+   .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Reduced gap for smaller screens */
+    padding: 10px; /* Reduced padding for smaller screens */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width on smaller screens */
+    max-width: 250px; /* Max width for larger screens */
+    height: 320px; /* Reduced height for smaller screens */
+    padding: 15px; /* Adjusted padding for smaller screens */
+    margin: 10px; /* Reduced margin for smaller screens */
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced within card */
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Adjusted shadow on hover */
+}
+
+.card-icon {
+    font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    color: #333;
+    margin-bottom: 8px; /* Reduced margin for smaller screens */
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+    font-weight: 500;
+    font-family: 'Inknut Antiqua';
+    margin-bottom: 8px; /* Reduced margin for smaller screens */
+    color: #000000;
+}
+
+.card-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    font-family: 'Inknut Antiqua';
+    margin-bottom: 8px; /* Reduced margin for smaller screens */
+}
+
+.card-button {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px 15px; /* Adjusted padding for smaller screens */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #f0f0f0; /* Lighter background on hover */
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%; /* Ensure cards stretch to full width */
+    }
+}
+
+@media (max-width: 480px) {
   
+    .card {
+        height: auto; /* Adjusted height to fit content on smaller screens */
+        max-width: 80%;
+      
+        
+    }
+
+    .card-icon {
+        font-size: 2rem; /* Further reduce font size for smaller screens */
+    }
+
+    .card-title {
+        font-size: 18px; /* Further reduce font size for smaller screens */
+    }
+
+    .card-description {
+        font-size: 12px; /* Further reduce font size for smaller screens */
+    }
+
+    .card-button {
+        padding: 6px 12px; /* Further reduce padding for smaller screens */
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}
