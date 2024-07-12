@@ -57,7 +57,7 @@ text-align: left;
     background-color: #55B7CE;
     position: absolute;
     top: 150px;
-    left: 470px;
+    left: 438px;
     /* Added margin for spacing */
    
 }
@@ -81,13 +81,15 @@ text-align: left;
 .head span {
     display: block; /* Ensures spans are on separate lines */
 }
-.list{
+.list-bottom{
+   
     align-items: flex-start;
 }
-.list ul {
+.list-bottom ul {
     list-style: none;
     padding: 0;
-   
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
     font-family: 'Inknut Antiqua', serif;
     font-size: 1.5rem; /* Adjusted font size for better responsiveness */
@@ -96,14 +98,14 @@ text-align: left;
     text-align: center; /* Centered text */
 }
 
-.list ul li {
+.list-bottom ul li {
     margin: 20px 0; /* Added margin for spacing */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.list ul li img {
+.list-bottom ul li img {
     margin-right: 10px; /* Added margin for spacing */
 }
 
@@ -112,7 +114,7 @@ text-align: left;
         font-size: 2rem; /* Adjust font size for smaller screens */
     }
 
-    .list ul {
+    .list-bottom ul {
         font-size: 1.25rem; /* Adjust font size for smaller screens */
     }
 }
@@ -138,15 +140,15 @@ text-align: left;
         font-size: 1.75rem; /* Further adjust font size for smaller screens */
     }
 
-    .list ul {
+    .list-bottom ul {
         font-size: 1rem; /* Further adjust font size for smaller screens */
     }
 
-    .list ul li {
+    .list-bottom ul li {
         flex-direction: column; /* Stack items vertically */
     }
 
-    .list ul li img {
+    .list-bottom ul li img {
         margin-bottom: 10px; /* Adjust margin for vertical stacking */
     }
 }

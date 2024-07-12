@@ -83,10 +83,15 @@ h2{
     margin: 0;
 }
 .lower-right-down ul{
+    display: flex;
+    flex-direction: column;
+}
+.lower-right-down ul{
     list-style: none;
 }
-.list{
+.lists{
     display: flex;
+    
     padding: 10px;
     font-family: Inknut Antiqua;
     font-weight: 700;
@@ -103,6 +108,18 @@ h2{
     border-left: 6px solid rgb(37, 141, 193);
     height: 80px;
   }
+  .contbutton{
+    position: fixed;
+    background-color: green;
+    width: 60px;
+    height: 50px;
+    z-index: 1;
+}
+.contbutton img{
+    width: 60px;
+    height: 50px;
+}
+
   @media (max-width: 768px) {
     .upper {
         padding-top: 1rem;
@@ -135,7 +152,7 @@ h2{
         line-height: 1.5rem;
     }
 
-    .list {
+    .lists {
         font-size: 0.875rem;
     }
 }
@@ -177,7 +194,7 @@ h2{
         line-height: 1.25rem;
     }
 
-    .list {
+    .lists {
         font-size: 0.75rem;
     }
 }

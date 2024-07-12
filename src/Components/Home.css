@@ -1,0 +1,136 @@
+
+body{
+   
+    overflow-x: hidden;
+}
+
+
+h1{
+    margin:0;
+    
+}
+.home-content h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+
+}
+.home-container{
+    display:flex;
+    justify-content:space-evenly;
+    
+    text-align: center;
+    margin-top: 110px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+  
+   
+    
+
+}
+.home-container img{
+    width:371px;
+    height: 318px;
+    
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#fff;
+    align-items: center;
+    margin: 0;
+  
+    width: 800px;
+}
+
+.headin h1{
+    
+    
+    font-size: 85px;
+}
+.main-para{
+    color: grey;
+    font-family: "Inknut Antiqua", serif;
+    
+    
+
+}
+.home-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 40px;
+
+}
+
+.heading-span{
+    color: #55B7CE;
+    
+}
+.btn-home{
+    background-color:#55B7CE;
+    color:black;
+    height: 50px;
+    width: 150px;
+    font-family:  serif;
+    font-weight: bold;
+    font-size: large;
+    font-style: normal;
+    margin-top: 20px;
+    transition: 1.0s linear;
+
+}
+
+.aboutHome{
+    display: flex;
+    margin: 50px;
+    color: #fff;
+}
+.aboutHome{
+    background-color: #333;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+}
+.heading{
+    position: relative;
+    padding-top: 20px; 
+    margin-top: 20px; 
+    font-family: "Inknut Antiqua", serif;
+    
+    font-style: normal;
+
+}
+.heading::before{
+    content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 160px;
+            height: 5px; /* Border height */
+            background-color: #55B7CE; /* Border color */
+}
+.para{
+    font-family: serif;
+    color: grey;
+}
+.contbutton{
+    position: fixed;
+    background-color: green;
+    width: 60px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 100px;
+}
+.contbutton img{
+    width: 60px;
+    height: 50px;
+}

@@ -1,0 +1,15 @@
+body{
+    animation: transitionin 0.75s linear;
+   
+}
+@keyframes transitionin {
+    from{
+        opacity:0;
+        transform: translateX(10px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }    
+}

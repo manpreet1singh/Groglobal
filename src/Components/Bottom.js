@@ -15,7 +15,7 @@ const Bottom = () => {
        
        </div>
        
-       <div className="list">
+       <div className="list-bottom">
             <ul>
                 <li> <img  style={{ height: '90px',width:'90px' }} src={time} alt="time" /> On time Delivery</li>
                 <li> <img  style={{ height: '90px',width:'90px' }} src={result} alt="result" /> Guranteed results</li>

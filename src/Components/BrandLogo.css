@@ -1,0 +1,35 @@
+.brand-names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+    justify-content: space-between;
+}
+.brand-heading{
+    margin:0;
+    font-family: "Inknut Antiqua", serif;
+    font-style: normal;
+    color: #fff;
+    font-size: 45px;
+}
+span{
+    color:#55B7CE
+}
+.brandHeadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.brandImg{
+    width: 200px;
+  height: 150px;
+  margin-right: 20px;
+}
+.brand-logo{
+    margin: 40px;
+}

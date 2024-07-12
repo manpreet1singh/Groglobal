@@ -2,40 +2,47 @@ import teamember from '../Images/teammember.png';
 import facebook from '../Images/facebook.png';
 import insta from '../Images/insta.png';
 import twitter from '../Images/twotter.png';
+import leadgen from '../Images/leadgen.png';
+import brand from '../Images/brandmark.png';
+import video from '../Images/video.png';
+import social from '../Images/socialmedia.png';
+import graphic from '../Images/graphicdes.png';
 export const cards = [
     {
-      id: 1,
+      id: 1, 
       title: "Lead Generation",
-      description: "Lorem ipsum dolor sit amet consectetur.sudf isgdfi hsijfbisjh hiuhsdfhisuhdfjsfdh isudhf hsif",
-      icon: "lead-generation-icon",
-      learnMoreUrl: "/lead-generation"
+      description: "It helps in Customer Acquisition, Market Expansion and Customer Insight",
+      icon: <img src={leadgen}></img>,
+      learnMoreUrl: "heloooooooo",
+      
     },
     {
       id: 2,
       title: "Brand Marketing",
-      description: "Lorem ipsum dolor sit amet consectetur.sudf isgdfi hsijfbisjh hiuhsdfhisuhdfjsfdh isudhf hsif",
-      icon: "brand-marketing-icon",
-      learnMoreUrl: "/brand-marketing"
+      description: "It helps in Building Recognition, Creating Trust and Differetiating from Competitors",
+      icon: <img src={brand}></img>,
+      learnMoreUrl: "/brand-marketing",
+      
     },
     {
       id: 3,
       title: "Videography",
-      description: "Lorem ipsum dolor sit amet consectetur.sudf isgdfi hsijfbisjh hiuhsdfhisuhdfjsfdh isudhf hsif",
-      icon: "videography-icon",
+      description: "It helps in Marketing ,advertising and Brand Building ",
+      icon: <img src={video}></img>,
       learnMoreUrl: "/videography"
     },
     {
       id: 4,
       title: "Social Media",
-      description: "Lorem ipsum dolor sit amet consectetur.sudf isgdfi hsijfbisjh hiuhsdfhisuhdfjsfdh isudhf hsif",
-      icon: "social-media-icon",
+      description: "It helps in Content Distribution , Customer Engagement and Visibility",
+      icon: <img src={social}></img>,
       learnMoreUrl: "/social-media"
     },
     {
       id: 5,
       title: "Graphic Designing",
-      description: "Lorem ipsum dolor sit amet consectetur.sudf isgdfi hsijfbisjh hiuhsdfhisuhdfjsfdh isudhf hsif",
-      icon: "graphic-designing-icon",
+      description: "It helps in Business's branding , communication and Professionalism",
+      icon: <img src={graphic}></img>,
       learnMoreUrl: "/graphic-designing"
     }
   ];

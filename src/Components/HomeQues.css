@@ -1,0 +1,48 @@
+.ques{
+    background-color: #333;
+    color: #fff;
+    font-family:  serif;
+    margin:5px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 50px;
+  
+    
+}
+
+.main-sec{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+.heading-ques{
+    margin-top: 30px;
+    
+    padding: 10px;
+    color: #fff;
+    font-family: "Inknut Antiqua", serif;
+
+}
+.ques h4{
+    font-size: large;
+    
+}
+.ques p{
+    color: grey;
+    width: 1000px;
+    display: none;
+    
+    
+}
+.ques:hover {
+    height: 120px;
+    transition: 0.1s ease-in;
+    & p{
+        display: block;  
+    }
+}    
+
+
+
