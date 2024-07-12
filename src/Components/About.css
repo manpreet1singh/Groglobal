@@ -69,13 +69,13 @@ top: 200px;
 .aboutlower-right-upper{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
   position: relative;
 }
 .aboutblue-line {
   height: 5px;
   width: 154px;
-  position: absolute;
   left: 00px;
   top: -20px;
   background-color: #55B7CE;
@@ -85,7 +85,7 @@ top: 200px;
     font-family: Inknut Antiqua;
     font-size: 40px;
     font-weight: 700;
-    line-height: 49px;
+    line-height: 40px;
     text-align: left;
     
     

@@ -1,3 +1,4 @@
+
 .containernew{
     background-color:#28282B;
     color: white;
@@ -7,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
-   overflow: auto;
+   
 }
 .headers {
     text-align: center;
