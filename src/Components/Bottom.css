@@ -42,11 +42,11 @@ text-align: left;
 .containerbottom {
     background-color: black;
     display: flex;
-    flex-direction: column; /* Changed to column for better responsiveness */
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Changed to min-height to allow content to fit */
-    padding: 20px; /* Added padding for spacing */
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items:baseline;
+    min-height: 100vh; 
+    padding: 20px; 
     box-sizing: border-box;
     position: relative;
 }
@@ -55,10 +55,6 @@ text-align: left;
     width: 199px;
     height: 5px;
     background-color: #55B7CE;
-    position: absolute;
-    top: 150px;
-    left: 438px;
-    /* Added margin for spacing */
    
 }
 .content {
@@ -77,10 +73,17 @@ text-align: left;
     text-align: center; /* Centered text */
     margin: 20px 0; /* Added margin for spacing */
 }
-
-.head span {
-    display: block; /* Ensures spans are on separate lines */
+.head span{
+    line-height: 2.5rem;
+    color: #ffffff;
 }
+.left-con{
+    margin-left: 10rem;
+}
+.right-con{
+   padding-right: 10rem;
+}
+
 .list-bottom{
    
     align-items: flex-start;
@@ -109,6 +112,12 @@ text-align: left;
     margin-right: 10px; /* Added margin for spacing */
 }
 
+@media (min-width: 820px) and (max-width: 1024px) {
+    .containerbottom {
+        min-height: 50vh;
+       
+    }
+}
 @media (max-width: 768px) {
     .head {
         font-size: 2rem; /* Adjust font size for smaller screens */
@@ -122,12 +131,27 @@ text-align: left;
 @media (max-width: 480px) {
     .containerbottom{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
     .blueline {
         width: 150px; /* Adjust width for smaller screens */
         position:static;
 
+    }
+    .left-con{
+    margin: 0;
+      
+        
+    }
+    .right-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        
     }
     .content {
         display: flex;

@@ -219,4 +219,38 @@ export const cards = [
       description: "Lorem ipsum dolor sit amet consectetur. Etiam imperdiet a malesuada adipiscing donec."
     }
   ]
+  export const articledetail=[
+    
+      {
+        "id": 1,
+        "title": "Article 1",
+        "subtitle": "Subtitle 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.",
+        "image": article,
+        "introduction":"This is intro",
+        "mean":"This is mean",
+        "conclusion":"This is conclusion"
+      },
+      {
+        "id": 2,
+        "title": "Article 2",
+        "subtitle": "Subtitle 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.",
+        "image": article,
+        "introduction":"This is intro",
+        "mean":"This is mean",
+        "conclusion":"This is conclusion"
+      },
+      {
+        "id": 3,
+        "title": "Article 3",
+        "subtitle": "Subtitle 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.",
+        "image": article,
+        "introduction":"This is intro",
+        "mean":"This is mean",
+        "conclusion":"This is conclusion"
+      },
+    
+  ]
   

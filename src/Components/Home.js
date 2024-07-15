@@ -20,7 +20,7 @@ const Home = () => {
   return (
     
     <div className="main-section">
-      <div className='contbutton'>
+      {/* <div className='contbutton'>
         <Link to="https://api.whatsapp.com/send?phone=918377059526">
          
             <img src={wa} alt='wastaap' />
@@ -28,7 +28,7 @@ const Home = () => {
          
           
         </Link>
-      </div>
+      </div> */}
 
     <div className="home-container">
       
@@ -43,7 +43,6 @@ const Home = () => {
       
     </div>
 
-    
     <div class="home-card">
       <Card 
         title="Fast" 
@@ -62,8 +61,6 @@ const Home = () => {
       />
     </div>
 
-
-
       <div class="aboutHome">
         <div class="aboutHomeContent">
           <h2 class="heading">About Us</h2>
@@ -80,12 +77,8 @@ const Home = () => {
     <HomeDiv></HomeDiv>
     <HomeQues></HomeQues>
     
-
   </div>
   
-
-
-   
   )
 }
 

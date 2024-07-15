@@ -27,6 +27,9 @@
 .upper-sec a{
     text-decoration: none;
 }
+.upper-sec p:hover{
+    color: #FFFFFF;
+}
 .lower-sec{
   display: flex;
   flex-direction: column;
@@ -76,4 +79,50 @@ text-align: center;
 color: #808080;
 
 
+}
+@media (max-width:480px) {
+    .upper-sec{
+        padding-top: 1.5rem;
+        line-height: 1rem;
+    }
+    .upper-sec h1{
+        font-size: 2rem;
+    }
+    .upper-sec p{
+        font-size: .8rem;
+    }
+    .image-item{
+        margin: 0;
+        align-items: center;
+
+    }
+    .image-item img{
+        height: 25vh;
+        width: 50vw;
+        margin: 2rem;
+    }
+    .image-details{
+    padding: 0;
+    margin: 0;
+       
+    }
+    .image-item:nth-child(odd) .image-details {
+        margin-left: 0;
+        margin-right: 1rem; 
+    }
+
+    
+    .image-item:nth-child(even) .image-details {
+        margin-left: 1rem;
+        margin-right: 0; 
+    }
+    .image-details h3{
+        font-size: 1rem;
+    }
+    .image-details h4{
+        font-size: 0.8rem;
+    }
+    .image-details p{
+        font-size: 0.5rem;
+    }
 }

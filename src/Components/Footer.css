@@ -76,7 +76,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     }
 }
 
-/* For screens that are between 481px and 768px wide */
+
 @media (min-width: 481px) and (max-width: 768px) {
     .footer-div {
         padding: 15px;

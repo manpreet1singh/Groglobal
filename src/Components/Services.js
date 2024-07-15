@@ -2,7 +2,6 @@ import React from 'react'
 import  meet from "../Images/meet.jpg";
 import  tick from "../Images/tick.png";
 import './Services.css';
-import wa from "../Images/wa.png" ;
 import Middle from './Middle';
 import Bottom from './Bottom';
 import { Link } from 'react-router-dom';
@@ -16,7 +15,7 @@ const Services = () => {
             <Link to="/">Home</Link> {'>'} Services
           </span>
       </div>
-      <div className='contbutton'>
+      {/* <div className='contbutton'>
         <Link to="https://api.whatsapp.com/send?phone=918377059526">
          
             <img src={wa} alt='wastaap' />
@@ -24,7 +23,7 @@ const Services = () => {
          
           
         </Link>
-      </div>
+      </div> */}
       <div className="lower">
         <div className="lower-left">
         <img src={meet} alt="meet" />

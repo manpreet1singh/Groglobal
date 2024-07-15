@@ -74,9 +74,13 @@ const Navbar = () => {
         <li className={currentPage === 'services' ? 'active' : ''}>
           <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
         </li>
+        <li className={currentPage === 'articles' ? 'active' : ''}>
+          <Link to="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
+        </li>
         <li className={currentPage === 'contact' ? 'active' : ''}>
           <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
         </li>
+        
       </ul>
     </nav>
   );

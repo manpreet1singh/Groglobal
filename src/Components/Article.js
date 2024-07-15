@@ -3,13 +3,14 @@ import './Article.css'
 import { Link } from 'react-router-dom'
 import { useState,useEffect } from 'react'
 import { articles } from './Assets'
+import Read from './Read'
 
 
 const Article = () => {
     const [images,setImages]=useState([]);
 
     useEffect(() => {
-        // Simulating a fetch with imported data
+       
         setImages(articles);
       }, []);
   return (
@@ -28,6 +29,7 @@ const Article = () => {
               <h3>{image.title}</h3>
               <h4>{image.subtitle}</h4>
               <p>{image.description}</p>
+              <Read id={image.id}/>
             </div>
           </div>
         ))}
