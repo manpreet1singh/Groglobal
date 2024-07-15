@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactPlayer from 'react-player';
 import './Player.css';
-import video from '../Videos/review.mp4';
+
 const Player = () => {
   return (
     <div className="player-wrapper">
     <ReactPlayer className="player"
-      url={video}
+      url="https://drive.google.com/file/d/1dQdsmFEUT0KEn6zLEpCCRaneoEtoAp67/view"
       controls={true}
     //  width='100%'
     //     height='100%'
