@@ -28,7 +28,7 @@ const About = () => {
           </div>
           </div>
           <div className="aboutlower-right-down">
-            <p>Lorem ipsum dolor sit amet consectetur. Commodo a augue duis amet diam molestie sit massa posuere. Bibendum a a ipsum felis diam feugiat cursus suspendisse. Pharetra lacinia massa mi elementum. Augue quis viverra dis etiam et massa nec gravida lorem. Pharetra dui amet eget imperdiet iaculis netus sed nunc amet. Erat augue cras aliquam ut sed. Amet blandit tortor odio justo sed sit vel viverra ut. Libero</p>
+            <p>Our social media agency helps creators start from zero by thoroughly researching the target audience to identify key demographics, likes, behaviours and preferences. We develop content strategies that align with the creator’s brand recognition, plan content types, themes, styles, and formats. We determine the most appropriate social media platforms based on the creator’s goals and optimize the content pages for maximum visibility and engagement. Additionally, we help create high-quality content, including images, videos, and text, and scheduling posts in a more accessible and engaging way fully incorporate, enabling strong and efficient data acquisition</p>
           </div>
           <button  className="aboutbutton">Get Started </button>
          

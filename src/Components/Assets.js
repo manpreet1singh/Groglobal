@@ -7,6 +7,7 @@ import brand from '../Images/brandmark.png';
 import video from '../Images/video.png';
 import social from '../Images/socialmedia.png';
 import graphic from '../Images/graphicdes.png';
+import article from '../Images/article.png';
 export const cards = [
     {
       id: 1, 
@@ -192,4 +193,30 @@ export const cards = [
       ]
     }
   ];
+  export const articles=[
+    {
+      id: 1,
+      src: article,
+      alt: "Image 1 description",
+      title: "Digital Marketing",
+      subtitle: "Starting and growing a career in digital marketing",
+      description: "Lorem ipsum dolor sit amet consectetur. Etiam imperdiet a malesuada adipiscing donec."
+    },
+    {
+      id: 2,
+      src: article,
+      alt: "Image 2 description",
+      title: "Digital Marketing",
+      subtitle: "Starting and growing a career in digital marketing",
+      description: "Lorem ipsum dolor sit amet consectetur. Etiam imperdiet a malesuada adipiscing donec."
+    },
+    {
+      id: 3,
+      src: article,
+      alt: "Image 3 description",
+      title: "Digital Marketing",
+      subtitle: "Starting and growing a career in digital marketing",
+      description: "Lorem ipsum dolor sit amet consectetur. Etiam imperdiet a malesuada adipiscing donec."
+    }
+  ]
   

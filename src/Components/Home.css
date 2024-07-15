@@ -17,7 +17,7 @@ h1{
 .main-section{
     display: flex;
     flex-direction: column;
-    background-color: rgb(14, 14, 14);
+    background-color:#000000;
 
 }
 .home-container{
@@ -72,21 +72,25 @@ h1{
 }
 
 .heading-span{
-    color: #55B7CE;
+    color: #0081A1;
     
 }
 .btn-home{
-    background-color:#55B7CE;
-    color:black;
+    background-color:  #0081A1;
+    color:#ffffff;
     height: 50px;
     width: 150px;
+    cursor: pointer;
     font-family:  serif;
     font-weight: bold;
     font-size: large;
     font-style: normal;
     margin-top: 20px;
-    transition: 1.0s linear;
+    transition: 0.2s linear;
 
+}
+.btn-home:hover{
+    color: #000000;
 }
 
 .aboutHome{

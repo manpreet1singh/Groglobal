@@ -1,0 +1,79 @@
+.main-container{
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x:hidden ;
+    font-family: Inknut Antiqua;
+    font-weight: 700;
+    
+}
+.upper-sec{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.upper-sec h1{
+    font-size: 3.5rem;
+}
+.upper-sec p{
+    color: #808080;
+   
+    
+}
+.upper-sec a{
+    text-decoration: none;
+}
+.lower-sec{
+  display: flex;
+  flex-direction: column;
+}
+.image-item{
+    display: flex;
+    margin: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.image-item img{
+    height: 35vh;
+    width: 30vw;
+}
+.image-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 3rem;
+}
+.image-details h3{
+margin: 0.3rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+color: #808080;
+
+
+}
+.image-details h4{
+margin: 0.2rem;
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+color: #FFFFFF;
+}
+.image-details p{
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 700;
+font-size: 0.7rem;
+
+text-align: center;
+
+color: #808080;
+
+
+}
